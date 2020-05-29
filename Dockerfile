@@ -1,0 +1,3 @@
+FROM maruware/gstreamer
+
+COPY . .
