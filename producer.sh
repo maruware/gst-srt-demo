@@ -13,4 +13,4 @@ gst-launch-1.0 -v \
   ! queue \
   ! mux. \
   mux. \
-  ! srtserversink  uri="srt://:7002" latency=500
+  ! srtserversink  uri="srt://:7002" latency=200
